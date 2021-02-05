@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.text-section textarea {
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 200px;
+    padding: 10px;
+    resize: none;
+    border-radius: 10px;
+}
+
+.btn-section input[type='button'] {
+    background-color: #204d74;
+    border: 0px;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+#output-text {
+    display: none;
+}
