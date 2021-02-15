@@ -6,19 +6,24 @@
     <title>Md5</title>
     
     <link rel="stylesheet" href="css/main.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/md5.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/md5.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js" integrity="sha512-nOQuvD9nKirvxDdvQ9OMqe2dgapbPB7vYAMrzJihw5m+aNcf0dX53m6YxM4LgA9u8e9eg9QX+/+mPu8kCNpV2A==" crossorigin="anonymous"></script>
     <script defer src="js/main.js"></script>
 </head>
 <body>
     <main class="main">
-        <h2>Md5 hash generator  </h2>
+        <h2>Hash generator  </h2>
         <section class="text-section">
             <textarea placeholder="Enter your string here" id="input-text"></textarea>
             <textarea placeholder="Your result will appear here" id="output-text"></textarea>
         </section>
         <section class="btn-section">
-            <input type="button" id="md5" value="Generate">
+            <input type="button" id="md5" value="MD5">
+            <input type="button" id="sha1" value="SHA1">
+            <input type="button" id="sha256" value="SHA256">
+            <input type="button" id="sha512" value="SHA512">
+            <input type="button" id="clear" value="Clear">
         </section>
     </main>
 </body>
